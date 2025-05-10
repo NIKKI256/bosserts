@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 8vh; /* поднимаем меню ближе к верху */
+    padding: 8vh 5vw; /* поднимаем меню ближе к верху */
     text-align: center;
   }
   
@@ -72,5 +72,32 @@
   
   .back:hover {
     opacity: 0.6;
+  }
+  
+  .contact {
+    margin-top: 2rem;
+  }
+  
+  .telegram-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: #666;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .telegram-link:hover {
+    color: black;
+  }
+  
+  .telegram-link svg {
+    stroke: #666;
+    transition: stroke 0.2s ease;
+    transform: translateY(3px); /* смещение вниз */
+  }
+  .telegram-link:hover svg {
+    stroke: black;
   }
   
